@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FLSCapstone-Deploy/static/css/main.dc5c4073.css",
+    "main.js": "/FLSCapstone-Deploy/static/js/main.2d60ccf8.js",
+    "static/media/google.png": "/FLSCapstone-Deploy/static/media/google.9cfcdbb45ba4a2d70e73.png",
+    "static/media/FPT-logo.webp": "/FLSCapstone-Deploy/static/media/FPT-logo.0dfdc2a3caf10ebe0bfb.webp",
+    "index.html": "/FLSCapstone-Deploy/index.html",
+    "main.dc5c4073.css.map": "/FLSCapstone-Deploy/static/css/main.dc5c4073.css.map",
+    "main.2d60ccf8.js.map": "/FLSCapstone-Deploy/static/js/main.2d60ccf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc5c4073.css",
+    "static/js/main.2d60ccf8.js"
+  ]
+}
