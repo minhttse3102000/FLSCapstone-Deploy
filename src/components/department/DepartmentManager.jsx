@@ -3,7 +3,7 @@ import { Box, Paper, Stack, Table, TableBody, TableCell, TableContainer, TableHe
 import { green } from '@mui/material/colors';
 import { useEffect, useState } from 'react'
 import { HashLoader } from 'react-spinners';
-import request from '../../utils/request';
+// import request from '../../utils/request';
 import Title from '../title/Title'
 
 const DepartmentManager = () => {

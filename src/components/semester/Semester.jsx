@@ -2,7 +2,7 @@ import { Grid, Stack, Typography } from '@mui/material'
 import { useState, useEffect } from 'react'
 import './Semester.css'
 import {HashLoader} from 'react-spinners';
-import request from '../../utils/request';
+// import request from '../../utils/request';
 import SemesterCard from './SemesterCard';
 import { green, red } from '@mui/material/colors';
 

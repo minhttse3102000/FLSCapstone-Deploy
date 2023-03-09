@@ -3,7 +3,7 @@ import { green, red } from '@mui/material/colors';
 import { HashLoader } from 'react-spinners';
 import React, { useEffect, useMemo, useState } from 'react';
 import Day from './Day';
-import request from '../../utils/request'
+// import request from '../../utils/request'
 
 const Timetable = ({ selectedSemester, selectedWeekObj, lecturerId, popUp, isSwap, clickSlotToSwap, afterSwap, isPublic, overTen }) => {
   const [courseAssign, setCourseAssign] = useState([]);

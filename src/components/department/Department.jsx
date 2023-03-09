@@ -6,7 +6,7 @@ import { Beenhere } from '@mui/icons-material';
 import React, { useState, useEffect } from 'react';
 import { green, grey } from '@mui/material/colors';
 import { HashLoader } from 'react-spinners';
-import request from '../../utils/request'
+// import request from '../../utils/request'
 import Title from '../title/Title';
 
 const Department = () => {

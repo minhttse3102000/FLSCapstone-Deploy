@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import SlotType from './SlotType';
 import { useNavigate, useParams } from 'react-router-dom';
 import Schedule from './Schedule';
-import request from '../../utils/request';
+// import request from '../../utils/request';
 import Title from '../title/Title';
 import { blue, green, grey} from '@mui/material/colors';
 import SubjectContainer from '../subject/SubjectContainer';

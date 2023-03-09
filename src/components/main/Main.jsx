@@ -2,7 +2,7 @@ import { MenuItem, Select, Stack, Typography } from '@mui/material'
 import Timetable from './Timetable';
 import './Main.css'
 import { useState, useEffect } from 'react';
-import request from '../../utils/request';
+// import request from '../../utils/request';
 import {getWeeksInYear, getSemesterWeeks} from '../../utils/weeksInYear'
 
 const ITEM_HEIGHT = 48;

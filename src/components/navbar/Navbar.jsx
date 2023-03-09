@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Reorder, AccountBox, Logout, Key } from '@mui/icons-material';
 import { Avatar, Box, Divider, Menu, MenuItem, Snackbar, Stack, Typography } from '@mui/material'
 import { useGoogleAuth } from '../../utils/googleAuth';
@@ -13,7 +13,7 @@ const Navbar = ({ isExtend, setIsExtend }) => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const [isCopied, setIsCopied] = useState(false)
-  const [key, setKey] = useState('')
+  const key= '';
   
   // useEffect(() => {
   //   if(googleUser){

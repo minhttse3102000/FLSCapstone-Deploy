@@ -5,7 +5,7 @@ import Leftbar from '../components/leftbar/Leftbar'
 import Navbar from '../components/navbar/Navbar'
 import {lecturerTabs} from  '../utils/lecturerTab'
 import {useGoogleAuth} from '../utils/googleAuth' 
-import request from '../utils/request'
+// import request from '../utils/request'
 
 const LecturerPage = () => {
   const navigate = useNavigate();

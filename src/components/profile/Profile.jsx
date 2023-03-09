@@ -39,9 +39,9 @@ const Profile = () => {
   const type = account.IsFullTime === 1 ? 'Full-time' : 'Contract';
   const [show, setShow] = useState(false);
 
-  const handleChange = (event) => {
-    setRadioValue(Number(event.target.value));
-  };
+  // const handleChange = (event) => {
+  //   setRadioValue(Number(event.target.value));
+  // };
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
