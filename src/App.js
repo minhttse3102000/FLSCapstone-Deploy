@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import {AdminPage, LecturerPage, ManagerPage} from './pages';
+import {AdminPage, LecturerPage, ManagerPage, Login} from './pages';
 import {Main, Profile, Semester, SemesterDetail, DepartmentManager, 
   Department, ManagerHome, Lecturer, LecturerInfo, SubjectOfManager, 
   ScheduleManager, ScheduleDetail, SemesterDetailManager, LecturerAdmin, 
@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route path='/' element={<Login/>} /> */}
-        <Route path="/" element={<LecturerPage />}>
+        <Route path='/' element={<Login/>} />
+        <Route path="/lecturer" element={<LecturerPage />}>
           <Route index element={<Main />} />
           <Route path='profile' element={<Profile />} />
           <Route path='semester' element={<Semester />} />
