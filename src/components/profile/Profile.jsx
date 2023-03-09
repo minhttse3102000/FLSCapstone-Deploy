@@ -32,7 +32,7 @@ const Profile = () => {
   const [dob, setDob] = useState(account.DateOfBirthFormatted);
   const [phone, setPhone] = useState(account.Phone);
   const [address, setAddress] = useState(account.Address);
-  const [radioValue, setRadioValue] = useState(account.Gender);
+  const radioValue = 1;
   const [idCard, setIdCard] = useState(account.Idcard);
   const email = account.Email;
   const department = account.DepartmentName;
