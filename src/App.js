@@ -19,7 +19,7 @@ function App() {
           <Route path='department' element={<DepartmentManager />} />
           <Route path='subject' element={<Department />} />
         </Route>
-        {/* <Route path="manager" element={<ManagerPage />}>
+        <Route path="manager" element={<ManagerPage />}>
           <Route index element={<ManagerHome />} />
           <Route path='lecturer' element={<Lecturer />}/>
           <Route path='lecturer/:id' element={<LecturerInfo />} />
@@ -43,7 +43,7 @@ function App() {
           <Route path="schedule" element={<ScheduleManager admin={true}/>}/>
           <Route path='schedule/:id' element={<ScheduleDetail admin={true}/>} />
           <Route path='profile' element={<Profile/>} />
-        </Route> */}
+        </Route>
       </Routes>
     </>
   );

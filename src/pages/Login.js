@@ -6,14 +6,13 @@ import { useNavigate } from 'react-router-dom'
 import fptlogo from '../images/FPT-logo.webp'
 import googleIcon from '../images/google.png'
 import { useGoogleAuth } from '../utils/googleAuth'
-import request from '../utils/request'
 import { ClipLoader } from 'react-spinners';
 
 const Login = () => {
     const navigate = useNavigate();
     const { signIn, isSignedIn, googleUser, signOut, isInitialized } = useGoogleAuth();
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState('');
+    const error= '';
 
     console.log(gapi);
 
